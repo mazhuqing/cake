@@ -1,0 +1,227 @@
+body,
+p,
+ul,
+ol,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+td,
+input,
+textarea {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: 0;
+}
+
+body {
+	font-family: "微软雅黑";
+}
+
+html {
+	font-size: 26.67vw;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+/* header */
+header {
+	/* width: 100%; */
+	height: .37rem;
+	position: relative;
+
+}
+
+header.img {
+	display: block;
+	float: left;
+}
+
+header .img_1 {
+	width: .94rem;
+	height: .37rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+header .img_2 {
+	width: .43rem;
+	height: .17rem;
+	position: absolute;
+	right: 80px;
+	top: 10px;
+}
+
+header .img_3 {
+	width: .19rem;
+	height: .15rem;
+	position: absolute;
+	right: 44px;
+	top: 11px;
+}
+
+.name {
+	font-size: .12rem;
+	color: white;
+	position: absolute;
+	right: 93px;
+	top: 10px;
+	z-index: 1;
+	font-weight: normal;
+}
+
+#box1 {
+	width: 1.97rem;
+	height: .8rem;
+	border: 1px solid #8c6a51;
+	font-size: .12rem;
+	color: #9a7c69;
+	position: absolute;
+	right: 40px;
+	top: 29px;
+	display: none;
+}
+
+#box1 p {
+	text-indent: .14rem;
+	margin-top: .1rem;
+
+}
+
+#box1 a {
+	color: #8c6a51;
+	font-size: .12rem;
+	margin-left: .16rem;
+	line-height: 25px;
+}
+
+/* banner */
+banner #big_box{
+	height: 1.2rem;
+	border-top: 1px solid #e8e3dd;
+	/* background-image: url(../img/banner0.jpg); */
+	background-size:90%;
+	background-repeat: no-repeat;
+}
+
+#btn-previous {
+	position: absolute;
+	left: 15px;
+	top: 70px;
+}
+
+#btn-next {
+	position: absolute;
+	right: 52px;
+	top: 70px;
+}
+
+li {
+	list-style: none;
+	width: 8px;
+	height: 8px;
+	background: lightgray;
+	border-radius: 50%;
+	margin: 10px;
+	float: left;
+}
+
+ul {
+	position: absolute;
+	left: 111px;
+	top: 110px;
+}
+
+/* section */
+section{
+	width: 90%;
+}
+section img {
+	display: inline;
+	width: 1.5rem;
+	height: 1.6rem;
+}
+
+section .p1 {
+	height: .39rem;
+	background-color: black;
+	opacity: 0.3;
+	margin-top: -39px;
+	position: relative;
+}
+
+section .p2 {
+	height: .39rem;
+	background-color: black;
+	opacity: 0.3;
+	margin-top: -39px;
+	position: relative;
+}
+
+span {
+	color: white;
+	display: inline-block;
+	font-size: .14rem;
+	margin-left: .4rem;
+	position: absolute;
+	left: 0;
+	top: 18px;
+	z-index: 1;
+}
+
+.mang {
+	margin-top: -18px;
+	margin-left: 30px;
+}
+
+.mang1 {
+	margin-top: -18px;
+	margin-left: 235px;
+}
+
+.kabu {
+	margin-left: 245px;
+}
+
+.choco {
+	margin-top: -18px;
+	margin-left: 200px;
+}
+
+.mouse {
+	margin-left: 245px;
+}
+
+.bod {
+	border: 1px solid #a48c81;
+	margin-top: .1rem;
+}
+
+/* footer */
+.foot {
+	width: 90%;
+	color: #8C6A51;
+	font-size: .12rem;
+	margin-top: .12rem;
+}
